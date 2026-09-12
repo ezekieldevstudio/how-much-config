@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-12T00:00:00Z",
+  "app": {
+    "minVersion": "1.0.0",
+    "latestVersion": "1.0.0",
+    "maintenanceMode": false
+  },
+  "features": {
+    "admob": true,
+    "coupang": false,
+    "recommendations": false,
+    "notices": true,
+    "faq": true
+  },
+  "content": {
+    "notices": {
+      "version": 1,
+      "file": "notices.json"
+    },
+    "faq": {
+      "version": 1,
+      "file": "faq.json"
+    },
+    "recommendations": {
+      "version": 0,
+      "file": "recommendations.json"
+    }
+  }
+}
