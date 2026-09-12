@@ -4,7 +4,8 @@
   "app": {
     "minVersion": "1.0.0",
     "latestVersion": "1.0.0",
-    "maintenanceMode": false
+    "maintenanceMode": false,
+    "privacyPolicyUrl": "https://ezekielkim.github.io/how-much-config/privacy-policy.html"
   },
   "features": {
     "admob": true,
