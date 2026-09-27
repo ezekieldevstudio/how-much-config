@@ -1,0 +1,11 @@
+# Never commit credentials or private key material.
+keys/
+secrets/
+*.jks
+*.keystore
+signing.properties
+credentials.json
+
+# A single .env is allowed for PUBLIC client settings only.
+.env.*
+!.env.example
