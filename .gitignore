@@ -9,3 +9,16 @@ credentials.json
 # A single .env is allowed for PUBLIC client settings only.
 .env.*
 !.env.example
+
+# Secrets stay in C:/dev/EzekielDev/keys/<project>/; prevent accidental commits.
+*.key
+*.pem
+*.p8
+*.p12
+*.mobileprovision
+*service-account*.json
+serviceAccount*.json
+*service_role*
+*service-role*
+*secret*.json
+*secret*.env
